@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: PokedexHomePage(),
     );
   }
 }
@@ -32,6 +32,6 @@ class PokedexHomePage extends StatelessWidget
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    retuyr
+    return Scaffold();
   }
 }
